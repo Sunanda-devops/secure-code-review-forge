@@ -1,0 +1,8 @@
+{
+  "id": "03-ssrf-allowlist",
+  "title": "Callback allowlist bypass through URL confusion",
+  "severity": "high",
+  "invariant": "Only an exact HTTPS host allowlisted by the service may receive callbacks.",
+  "threat": "A prefix or substring check can redirect server-side requests to attacker-controlled hosts.",
+  "verification": "Subdomain confusion, HTTP, credentials, and non-allowlisted hosts are rejected."
+}

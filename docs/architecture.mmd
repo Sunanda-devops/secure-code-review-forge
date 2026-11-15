@@ -1,0 +1,16 @@
+flowchart LR
+  input["AI-generated patch"] --> intake["Audit intake"]
+  intake --> case["Case fixture + threat model"]
+  case --> evidence["Reproduce failure"]
+  evidence --> invariant["State security invariant"]
+  invariant --> fix["Hardened implementation"]
+  fix --> regression["Regression test"]
+  regression --> ci["CI verification"]
+  ci --> catalog["Audit catalog + report"]
+
+  classDef input fill:#fbe4dc,stroke:#f26b4f,color:#17232c;
+  classDef method fill:#e9e5f5,stroke:#8475b9,color:#17232c;
+  classDef verify fill:#dcece6,stroke:#5c917e,color:#17232c;
+  class input,case,evidence input;
+  class intake,invariant,fix method;
+  class regression,ci,catalog verify;

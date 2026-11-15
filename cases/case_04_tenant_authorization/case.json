@@ -1,0 +1,8 @@
+{
+  "id": "04-tenant-authorization",
+  "title": "Role check without tenant ownership",
+  "severity": "critical",
+  "invariant": "A user may access a resource only within an authorized tenant scope.",
+  "threat": "A valid authenticated user must not be able to read another tenant's records by changing an ID.",
+  "verification": "Same-tenant access succeeds; cross-tenant access is denied even for privileged roles."
+}

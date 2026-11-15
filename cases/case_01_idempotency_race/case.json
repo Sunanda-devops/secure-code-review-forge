@@ -1,0 +1,8 @@
+{
+  "id": "01-idempotency-race",
+  "title": "Duplicate side effects under concurrent delivery",
+  "severity": "high",
+  "invariant": "At most one worker accepts a given event ID.",
+  "threat": "Webhook retries and concurrent consumers must not charge, publish, or mutate state twice.",
+  "verification": "A 64-worker replay accepts the event exactly once."
+}

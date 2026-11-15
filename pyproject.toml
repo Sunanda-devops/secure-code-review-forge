@@ -1,0 +1,7 @@
+[tool.pytest.ini_options]
+python_files = ["test_*.py", "*_test.py"]
+addopts = "-q"
+
+[tool.audit_lab]
+name = "secure-ai-code-audit-lab"
+version = "1.0.0"

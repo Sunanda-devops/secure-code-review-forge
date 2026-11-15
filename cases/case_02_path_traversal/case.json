@@ -1,0 +1,8 @@
+{
+  "id": "02-path-traversal",
+  "title": "Artifact path escapes its storage root",
+  "severity": "critical",
+  "invariant": "A user-controlled artifact name resolves beneath the configured root.",
+  "threat": "Download or export paths must not read arbitrary files through ../ traversal.",
+  "verification": "Traversal attempts are rejected while nested safe paths are accepted."
+}
