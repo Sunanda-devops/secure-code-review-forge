@@ -59,8 +59,8 @@ The only runtime dependency is pinned in [`requirements.txt`](requirements.txt).
 ### Local environment
 
 ```bash
-git clone https://github.com/Sunanda-devops/ai-code-audit-lab.git
-cd ai-code-audit-lab
+git clone https://github.com/Sunanda-devops/secure-code-review-forge.git
+cd secure-code-review-forge
 python3.11 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
