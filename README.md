@@ -1,6 +1,6 @@
-# Secure AI Code Audit Lab
+# Secure Code Review Forge
 
-A practical, reproducible lab for reviewing AI-generated backend code before it reaches production. Each case starts with a plausible implementation, states the security invariant that must hold, demonstrates the failure, provides a hardened alternative, and locks the lesson in with a regression test.
+A practical, reproducible environment for reviewing generated backend code before it reaches production. Each case starts with a plausible implementation, states the security invariant that must hold, demonstrates the failure, provides a hardened alternative, and locks the lesson in with a regression test.
 
 This is an independent audit lab inspired by real code-review concerns. It is not a copy of another repository: the scenarios, implementations, structure, wording, and verification workflow are designed around a different threat model and a different set of backend failure patterns.
 
